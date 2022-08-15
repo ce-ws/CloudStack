@@ -1,0 +1,80 @@
+/* ======== 全局背景 ======== */
+
+#canvas-basic{
+  display:block;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height:100%
+}
+
+/* ======== 全局字体 ======== */
+
+@font-face{
+  font-display:swap;
+  font-family:GlobalFont;
+  src:url(https://alioss.xiamoqwq.com/font/emmmm.woff2)
+}
+*:not([class*=icon]):not(i){
+  font-family:GlobalFont
+}
+
+/* ======== 定制区域 ======== */
+
+.page-head{
+  text-align:center;
+  margin:8px 0px 0px 0px!important;
+  font-size:xx-small
+}
+.chakra-ui-light .page-line{
+  height:2px;
+  background-color:#0F0F0F0F
+}
+.chakra-ui-dark .page-line{
+  border:none!important;
+  height:2px;
+  background-color:#0F0F0F0F!important
+}
+.app-date{
+  float:left;
+  font-size:small
+}
+.app-type{
+  text-align:right;
+  font-size:small
+}
+.app-icon,.app-link{
+  text-align:center
+}
+.app-down{
+  text-align:center;
+  margin:0px!important
+}
+.app-link a{
+  text-decoration:none!important
+}
+.app-name{
+  text-align:center;
+  margin:0px!important;
+  font-size:x-large
+}
+.app-info{
+  text-align:center;
+  font-size:x-small
+}
+.app-intro a{
+  text-decoration:none!important
+}
+.page-foot{
+  text-align:center;
+  margin:0px 0px 8px 0px!important;
+  font-size:xx-small
+}
+.page-foot a{
+  text-decoration:none!important;
+  color:#0F0F0F!important
+}

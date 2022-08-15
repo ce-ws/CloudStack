@@ -1,0 +1,15 @@
+<svg width="128" height="32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1">
+ <defs>
+  <linearGradient y2="0" x2="0.5" y1="1" x1="0.5" id="SVGID_1_">
+   <stop stop-color="#3F3F3F" offset="0"/>
+   <stop stop-color="#080808" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Down</title>
+  <g id="svg_1">
+   <path id="svg_2" fill="url(#SVGID_1_)" d="m112,32l-96,0c-8.84,0 -16,-7.16 -16,-16l0,0c0,-8.84 7.16,-16 16,-16l96,0c8.84,0 16,7.16 16,16l0,0c0,8.84 -7.16,16 -16,16z" class="st0"/>
+  </g>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="18" id="svg_3" y="22" x="45.5" stroke-width="0" stroke="#fcfcfc" fill="#fcfcfc">下载</text>
+ </g>
+</svg>
